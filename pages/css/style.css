@@ -1,0 +1,36 @@
+h1{
+    font-family: "OxforStreet";
+    text-align: center;
+    font-size: 350%;
+    padding: 20px;
+}
+body{
+    font-family: "OxforStreet";
+}
+#carouselExampleControls{
+    margin-left:8%;
+    margin-right:8%;
+
+}
+#boutton{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.crop-18x6 {
+    width: 96%;
+    height: calc(100vw * 0.33); /* Ratio 18:6 */
+    overflow: hidden;
+    margin: 2%;
+  }
+  
+.crop-18x6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+@font-face {
+	font-family: 'OxforStreet';
+	src: url("police/OxfordStreet.ttf") format(".ttf");
+}
