@@ -1,11 +1,13 @@
-h1{
-    font-family:'Morganite', sans-serif;
+h2{
+    font-family: "OxforStreet";
     text-align: center;
-    font-size: 350%;
     padding: 20px;
+    font-weight: bold;
+    font-size: 100px;
 }
 body{
-    font-family:'Morganite', sans-serif;
+    font-family: "OxforStreet";
+    font-weight: bold;
 }
 #carouselExampleControls{
     margin-left:8%;

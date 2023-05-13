@@ -392,3 +392,13 @@
   #retour1{
   align-items: left;
   }
+
+  h1{
+    font-family: "OxforStreet";
+    text-align: center;
+    font-size: 350%;
+    padding: 20px;
+}
+body{
+    font-family: "OxforStreet";
+}

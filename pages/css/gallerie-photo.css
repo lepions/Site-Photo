@@ -22,13 +22,7 @@ body{
 	font-family: 'OxforStreet';
 	src: url("police/OxfordStreet.ttf") format(".ttf");
 }
-#album{
-    transition: all 0.1s ease-out;
-    color: white
-}
-#album:hover,#album:focus{
-    filter: brightness(50%);
-}
+
 
 html, body {
    margin:0;
@@ -45,4 +39,19 @@ html, body {
    bottom:0;  /* on le colle en bas */
    width:100%;
    height:100px;   /* Hauteur du pied de page */
+}
+
+.text-over {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+  }
+h2{
+    font-size: 120px;
+    font-weight: bold;
 }
