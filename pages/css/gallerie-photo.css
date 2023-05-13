@@ -52,6 +52,6 @@ html, body {
     transition: opacity 0.2s ease-out;
   }
 h2{
-    font-size: 150%;
+    font-size: 40px;
     font-weight: bold;
 }
