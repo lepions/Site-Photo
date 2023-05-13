@@ -1,11 +1,11 @@
 h1{
-    font-family: "OxforStreet";
+    font-family:'Morganite', sans-serif;
     text-align: center;
     font-size: 350%;
     padding: 20px;
 }
 body{
-    font-family: "OxforStreet";
+    font-family:'Morganite', sans-serif;
 }
 #carouselExampleControls{
     margin-left:8%;
@@ -31,6 +31,13 @@ body{
 	font-family: 'OxforStreet';
 	src: url("police/OxfordStreet.ttf") format(".ttf");
 }
+
+@font-face {
+	font-family: 'GeosansLight';
+	src: url("police/GeosansLight.ttf") format(".otf");
+}
+
+
 #album{
     transition: all 0.5s ease-out;
     color: white
@@ -55,3 +62,5 @@ html, body {
    width:100%;
    height:100px;   /* Hauteur du pied de page */
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Morganite&display=swap');
