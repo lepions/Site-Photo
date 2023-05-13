@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="pages/css/style.css">
     </head>
-    <body>
+    <body oncontextmenu="return false">
         
         <!-- Navbar -->
         <div class="fixed-top">
@@ -108,6 +108,12 @@
 <!-- MDB -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- Custom scripts -->
-<script type="text/javascript"></script>
+
+<script type="text/javascript">
+  // Empêcher le clic droit sur la page
+  document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+  }, false);
+</script>
 
 </html>
