@@ -62,3 +62,7 @@ html, body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Morganite&display=swap');
+
+a{
+    transition: 1s ease-out;
+}
