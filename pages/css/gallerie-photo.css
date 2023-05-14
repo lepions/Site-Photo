@@ -77,6 +77,24 @@ body {
   position: relative;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Pour certains navigateurs mobiles, il est nécessaire d'ajouter ces règles supplémentaires */
+body {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Empêche le zoom sur certains navigateurs mobiles */
+
+
 
 
 
