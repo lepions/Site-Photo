@@ -7,6 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         
         <title>Gabriel Dupuch Photography</title>
+    
+    <!--FancyBox-->
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+          />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -21,7 +27,20 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/gallerie-photo.css">
-    </head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+  </head>
     <body oncontextmenu="return false">
  
         <!-- Navbar -->
@@ -34,7 +53,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="gallerie-photo.html">Gallerie Photo</a>
+
                 <a class="nav-item nav-link" href="a-propos.html">A propos</a>
                 <a class="nav-item nav-link" href="contact.html">Contact</a>
               </div>
@@ -46,61 +65,44 @@
 <br>
 <br>
 <br>
-<div class="container gallery-container">
 
   <h1>Landscape Gallery</h1>
 
   <p class="page-description text-center"> My Landscape photography gallery</p>
   
-  <div class="tz-gallery">
-
-    <div class="row">
-      <div class="col-sm-12 col-md-12">
-        <img src="gallerie-photo/Landscape/IMG_0033.jpg" alt="Rails">
-      </div>
+  <div id="gallery">
   
-      <div class="col-sm-6 col-md-4">
-        <img src="gallerie-photo/Landscape/IMG_0921.jpg" alt="Park">
-      </div>
-  
-      <div class="col-sm-6 col-md-4">
-        <img src="gallerie-photo/Landscape/IMG_1059-2.jpg" alt="Tunnel">
-      </div>
-  
-      <div class="col-sm-6 col-md-4">
-        <img src="gallerie-photo/Landscape/IMG_1071-3.jpg" alt="Coast">
-      </div> 
-
-      <div class="col-sm-12 col-md-12">
-        <img src="gallerie-photo/Landscape/IMG_0262.jpg" alt="Traffic">
-      </div>
-  
-  </div>
-  
+    
+    <div id="transition"><a  data-fancybox="gallery" href="gallerie-photo/Landscape/IMG_0232.jpg"><img src="gallerie-photo/Landscape/IMG_0232.jpg"></a></div> 
+    <div id="transition"><a  data-fancybox="gallery" href="gallerie-photo/Landscape/IMG_0033.jpg"><img src="gallerie-photo/Landscape/IMG_0033.jpg"></a></div>
+    <div id="transition"><a  data-fancybox="gallery" href="gallerie-photo/Landscape/IMG_0262.jpg"><img src="gallerie-photo/Landscape/IMG_0262.jpg"></a></div>
+    <div id="transition"><a  data-fancybox="gallery" href="gallerie-photo/Landscape/IMG_0921.jpg"><img src="gallerie-photo/Landscape/IMG_0921.jpg"></a></div>
+    <div id="transition"><a  data-fancybox="gallery" href="gallerie-photo/Landscape/IMG_1059-2.jpg"><img src="gallerie-photo/Landscape/IMG_1059-2.jpg"></a></div>
+    <div id="transition"><a  data-fancybox="gallery" href="gallerie-photo/Landscape/IMG_1071-3.jpg"><img src="gallerie-photo/Landscape/IMG_1071-3.jpg"></a></div>
+   </div>
+   
 
 
 <script>
   baguetteBox.run('.tz-gallery');
 </script>
-<!-- Gallery -->
 
-
-
-     
-    </body>
-
+</body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <!-- MDB -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- Custom scripts -->
-
+<!--Empêche le clic droit-->
 <script type="text/javascript">
-  // Empêcher le clic droit sur la page
   document.addEventListener("contextmenu", function(e){
     e.preventDefault();
   }, false);
 </script>
+<!--FancyBow-->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script>Fancybox.bind('[data-fancybox="gallery"]', {});</script>
+
 
 </html>
