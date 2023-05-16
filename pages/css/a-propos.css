@@ -12,12 +12,10 @@ h2{
     font-family: "OxforStreet";
     text-align: center;
     padding: 20px;
-    font-weight: bold;
     font-size: 280%;
 }
 body{
     font-family: "OxforStreet";
-    font-weight: bold;
 }
 #carouselExampleControls{
     margin-left:12%;

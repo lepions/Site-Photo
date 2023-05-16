@@ -99,7 +99,7 @@ body {
 
 #transition{
   cursor: pointer;
-  transition: ease-out 0.5s;
+  transition: 0.1s ease-out;
 }
 #transition:hover{
   filter: brightness(50%);
